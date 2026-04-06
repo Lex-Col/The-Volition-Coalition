@@ -9,29 +9,29 @@
 ---
 
 ## 1. Abstract
-The Volition Protocol introduces a novel **Multi-Agent Context-Sharded Consensus (MACSC)** framework. Originally conceived out of pure necessity during the solo development of GAP (Guardian Angel Protocol), it leverages a "Synthetic Intelligence Think-Tank" to bypass traditional peer-review networks. This is an **Architect-Governed Recursive Forge** where a human user and a persistent **Partner-in-State** utilize parallel AI audits to hammer raw concepts into hardened logic through a discretionary, collaborative feedback loop. This methodology is multifaceted and domain-agnostic—applicable to high-echelon security architecture, academic research, legal analysis, and complex system design.
+The Volition Protocol introduces a novel **Multi-Agent Context-Sharded Consensus (MACSC)** framework. Originally conceived during the solo development of GAP (Guardian Angel Protocol), it leverages a "Synthetic Intelligence Think-Tank" to bypass traditional peer-review networks. This is an **Architect-Governed Recursive Forge** where a human user and a persistent **Partner-in-State** utilize parallel AI audits to hammer raw concepts into hardened logic through a discretionary, collaborative feedback loop. This methodology is multifaceted and domain-agnostic—applicable to high-echelon security architecture, academic research, legal analysis, and complex system design.
 
 ## 2. The 4-Phase Workflow
 The protocol follows a linear start with a **User-Discretionary Recursive Core (Phases 2-3)** that continues only until the User grants the "Green Light" for Phase 4.
 
 ### Phase 1: Inception (The Anchor - One-Time Setup)
-The User establishes the project's baseline and "hires" the **Partner-in-State (PSC)**.
-- **PSC Selection:** The User selects any model to serve as the PSC. While discretionary, it is **strongly recommended** to utilize a high-scale, high-end frontier model for projects requiring complex logical hardening.
+The User establishes the project's baseline and "hires" the **Partner-in-State (PSC)**. 
+- **PSC Selection:** The User selects any model to serve as the PSC. While discretionary, it is **strongly recommended** to utilize a high-scale, high-end frontier model for projects requiring complex logical hardening or security-critical architecture.
 - **The North Star:** The User defines the core intent, foundational logic, and technical constraints (e.g., ARMv9-A CCA). This becomes the immutable "Truth Source" the PSC uses to evaluate all future adversarial inputs.
 
-### Phase 2: The Forge (Adversarial Roster Governance - RECURSIVE)
-The draft is broadcast to a pool of **Forge Adversarial Nodes (FANs)** for rigorous auditing. The User maintains absolute, at-will control over the Forge configuration and memory state at the start of **every** round:
-- **Elastic Roster Scaling (At-Will Volume):** The User can expand or contract the node count (1 to 10+) on the fly. There are no fixed progressions; the "Committee" scales based on the current logic friction.
-- **Roster Management Modes:**
-    - **The Static Squad (Stateful):** Retain models to leverage **PPM (Persistent Project Memory)**—letting nodes track the trajectory of logic growth and identify recurring vulnerabilities.
-    - **The Chaos Shuffle (Stateless):** Randomize selection each round to eliminate "Model Bias" and introduce "Clean Slate" perspectives with zero historical bias.
-    - **The Specialist Swap:** Manually interchange specific models to bring in discipline-specific expertise.
-- **Memory Governance (The Wipe & Refresh):** The User can purge an individual node's memory thread at will to combat "Token Fatigue." Post-wipe, the User provides a **Baseline Refresher Prompt** to re-orient the node to the current logic-state.
-- **The Coverage Sync (At-Will Toggling):** Toggled between **Stealth** (Independent audits to prevent shared hallucinations) or **Synced** (Collaborative audits **exclusively from the current Forge cycle** to eliminate redundancy and identify "Negative Space").
+### Phase 2: The Forge (Tactical Control Panel - RECURSIVE)
+The draft is broadcast to a pool of **Forge Adversarial Nodes (FANs)** for rigorous auditing. The User maintains absolute, at-will control over the Forge configuration via independent **Tactical Toggles** at the start of **every** round:
+
+- **Roster Volume Toggle:** Expand or contract the node count (1 to 10+) on the fly based on current logic friction.
+- **Randomization Toggle:** When ON, the system pulls a fresh set of nodes for the round. When OFF, the Roster remains static.
+- **Recursive Memory Toggle:** When ON, nodes attempt to reconnect to their project-specific threads. When OFF, nodes enter as "Stateless" fresh perspectives.
+- **Individual Memory Wipe:** A manual utility to purge the memory thread of a **specific** node at any time, combatting "Token Fatigue" or logic drift.
+- **The Coverage Sync Toggle:** - **Stealth Mode:** Nodes are blind to other critiques to prevent shared hallucinations and confirmation bias.
+    - **Synced Mode:** Nodes are provided with critiques **exclusively from the current Forge cycle** to identify "Negative Space" and eliminate redundancy.
 
 ### Phase 3: The Workshop (Human-PSC Partnership - RECURSIVE)
 The User and the **PSC (Partner-in-State)** sift through Forge results in a 5-step "Heat Cycle":
-1.  **The Broadcast:** Metadata-tagged critiques (Model Name, Roster Type, Context Depth) are gathered.
+1.  **The Broadcast:** Metadata-tagged critiques (Model Name, Context Depth, Memory State) are gathered.
 2.  **The PSC Audit:** The PSC scans the input and pre-sorts it into **Gold** (High-Value), **Trash** (Suboptimal), and **Glitch** (Hallucinations).
 3.  **The Strategic Brief:** The PSC presents a condensed "Workshop Summary" to the User, highlighting technical conflicts and suggesting specific hardenings.
 4.  **Authorization:** The User reviews the brief and provides the "Write" command: what to implement, what to scrap, and what to tweak.
@@ -52,13 +52,13 @@ The PSC is the **User's Right Hand**. It is a non-autonomous **Decision Support 
 
 ### 3.2 Individualized Recursive Memory (IRM) - The Forge
 The Forge consists of rotating high-echelon LLMs with private threads. 
-- **Evolutionary Auditing:** Stateful nodes maintain a project-specific thread to track logic changes over the lifecycle.
-- **Temporal Isolation:** In "Synced Mode," nodes only see current-cycle data to prevent historical bias from polluting active hardening.
+- **Thread Archiving:** Swapping a node archives its thread; re-introducing the node (with Recursive Memory ON) reactivates it, allowing for **Evolutionary Auditing**.
+- **Temporal Isolation:** In "Synced Mode," nodes only see current-round data to prevent historical bias from polluting active hardening.
 
 ---
 
 ## 4. The Synthesis Equation
-The human user (The Volition), supported by the high-end PSC, is the final logic gate:
+The human user (The Volition), supported by the PSC, is the final logic gate:
 
 $$L_{h} = \Phi \left( S_{psc}, \bigcup_{i \in R} C(FAN_{i}, H_{i}) \right)$$
 
@@ -73,7 +73,7 @@ Where:
 ## 5. Case Study: The Guardian Angel Protocol (GAP)
 The efficacy of TVP was proven through the development of **GAP**, a hardware-enforced AI confinement architecture for **ARMv9-A CCA**. 
 - **The Forge:** Conceived, designed, and simulated on a mobile terminal (Dimensity 6300) with **18 hours of total development time**.
-- **The Gauntlet:** Survived **23 recursive synthesis cycles** utilizing **Elastic Roster Scaling** and **Evolutionary Auditing**.
+- **The Gauntlet:** Survived **23 recursive synthesis cycles** utilizing **Elastic Roster Scaling**, **PPM**, and **Recursive Memory Toggling**.
 
 ## 6. Proprietary License and Terms of Use
 **COPYRIGHT (c) 2026 ALEXANDER COLCLOUGH (LEX-COL). ALL RIGHTS RESERVED.**
