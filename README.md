@@ -16,14 +16,14 @@ The protocol follows a linear start with a **User-Discretionary Recursive Core (
 
 ### Phase 1: Inception (The Anchor - One-Time Setup)
 The User establishes the project's baseline. 
-- **PSC Selection:** The User selects any model to serve as the **Partner-in-State (PSC)**. While the choice is at the User's discretion, it is **strongly recommended** to utilize a high-scale, high-end frontier model for projects requiring complex logical hardening or security-critical architecture.
-- **Goal Setting:** This phase defines the core intent, foundational logic, and technical constraints (e.g., ARMv9-A CCA), setting the "North Star" that the PSC uses to evaluate all future adversarial inputs.
+- **PSC Selection:** The User selects any model to serve as the **Partner-in-State (PSC)**. It is strongly recommended to utilize a high-scale, high-end frontier model for projects requiring complex logical hardening.
+- **Goal Setting:** This phase defines the core intent, foundational logic, and technical constraints (e.g., ARMv9-A CCA).
 
 ### Phase 2: The Forge (Parallel or Synced Audits - RECURSIVE)
 The draft is broadcast to a pool of **Adversarial Nodes (SANs)** for rigorous auditing.
-- **The Coverage Sync (At-Will Toggling):** The User maintains absolute discretion to toggle between **Stealth** and **Synced** modes at any time during the Forge cycle to manage audit quality and redundancy.
-    - **Stealth Mode:** Nodes are blind to other critiques to prevent shared hallucinations and confirmation bias.
-    - **Synced Mode:** Nodes are provided with existing critiques to eliminate redundancy and identify "Negative Space"—ensuring conductive, full-spectrum coverage of the logic.
+- **The Coverage Sync (At-Will Toggling):** The User maintains absolute discretion to toggle between **Stealth** and **Synced** modes at any time.
+    - **Stealth Mode:** Nodes are blind to other critiques to prevent shared hallucinations.
+    - **Synced Mode:** Nodes are provided with existing critiques **exclusively from the current Forge cycle**. This eliminates redundancy and identifies "Negative Space" within the active round without polluting the audit with historical drift.
 - **Architect-Governed Depth:** The user dictates the quantity and range of the AI Viewboard.
 
 ### Phase 3: The Workshop (Human-PSC Partnership - RECURSIVE)
@@ -31,21 +31,22 @@ The User and the **PSC (Partner-in-State)** sift through the Forge results in a 
 1.  **The Broadcast:** Metadata-tagged critiques are gathered from the Forge nodes.
 2.  **The PSC Audit:** The PSC scans the input and pre-sorts it into **Gold** (High-Value), **Trash** (Suboptimal), and **Glitch** (Hallucinations).
 3.  **The Strategic Brief:** The PSC presents a condensed "Workshop Summary" to the User, highlighting conflicts and suggesting specific hardenings.
-4.  **Authorization:** The User reviews the brief and provides the "Write" command: what to implement, what to scrap, and what to tweak.
-5.  **The Re-Forge:** The PSC generates the **vNext** draft and attaches a **Changelog of Intent** (logging *why* changes were made) before returning to Phase 2 or exiting the loop.
+4.  **Authorization:** The User reviews the brief and provides the "Write" command.
+5.  **The Re-Forge:** The PSC generates the **vNext** draft and attaches a **Changelog of Intent** (logging *why* changes were made).
 
 ### Phase 4: Implementation (The Green Light)
-The User exits the loop once **Stochastic Parity** is reached—the state where adversarial nodes stop identifying new structural flaws.
+The User exits the loop once **Stochastic Parity** is reached.
 
 ---
 
 ## 3. Architecture: The Anchor & The Forge
 
 ### 3.1 Primary State-Controller (PSC) - The Partner-in-State
-The PSC is the **User's Right Hand**. It is a non-autonomous advisor that maintains the "Global State," bridges the technical knowledge gap for the user, and flags contradictions. It ensures the **Will** of the User is never compromised by stochastic noise.
+The PSC is the **User's Right Hand**. It is a non-autonomous advisor that maintains the full **Institutional Memory** of the project, bridges the technical knowledge gap, and flags contradictions.
 
 ### 3.2 Individualized Recursive Memory (IRM) - The Forge
-The Forge consists of rotating high-echelon LLMs with private threads. The **Changelog of Intent** ensures the Forge never goes in circles by providing "Institutional Memory" of previous decisions.
+The Forge consists of rotating high-echelon LLMs with private threads. 
+- **Temporal Isolation:** When the **Coverage Sync** is engaged, the PSC selectively "injects" data **strictly from the active Forge round**. Nodes are denied access to historical critiques to prevent past logic-states from biasing current hardening efforts.
 
 ---
 
@@ -63,8 +64,7 @@ The efficacy of TVP was proven through the development of **GAP**, a hardware-en
 
 ## 6. Proprietary License and Terms of Use
 **COPYRIGHT (c) 2026 ALEXANDER COLCLOUGH (LEX-COL). ALL RIGHTS RESERVED.**
-This is a Proprietary Source-Available License. The Volition Protocol (MACSC) methodology is the intellectual property of Alexander Colclough. Unauthorized commercial use, redistribution, or derivation is strictly prohibited.
+Unauthorized commercial use, redistribution, or derivation of the Volition Protocol (MACSC) methodology is strictly prohibited.
 
 ---
 **BORN ON THE GLASS. FORGED IN THE FORGE.**
-
