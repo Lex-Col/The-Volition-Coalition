@@ -1,65 +1,47 @@
 # The Volition Protocol (TVP) v1.0 
-**Architect:** Alexander Colclough (Lex-Col) | **Date:** April 6, 2026
-**Subject:** High-Integrity Decision Engines / AI Hallucination Mitigation
+### *Institutional Memory with Built-in Skepticism. Born on the Glass. Forged in the Forge.*
+
 ---
-## [1] THE ORIGIN & ABSTRACT
-Born on the glass of a Motorola Moto G (2025) during the 18-hour "GAP" gauntlet. 
-TVP is a Multi-Agent Context-Sharded Consensus (MACSC) framework for total 
-operator sovereignty ($\Phi$). It replaces automated AI bias with an Architect-
-Governed Forge, ensuring high-stakes logic hardening on mobile terminals.
+
+## [0] THE MISSION
+**AI is a "Yes-Man."** Most agents are trained to be helpful, polite, and compliant—which makes them **garbage** for high-stakes technical auditing. They smooth over glitches, hallucinate consensus, and choke on long-term project history.
+
+**The Volition Protocol (TVP)** fixes this. It is a **Multi-Agent Context-Sharded Consensus (MACSC)** framework designed to hammer raw ideas into hardened, hardware-verified logic. Developed on a mobile terminal (Motorola Moto G 2025) during the 18-hour "GAP" gauntlet, TVP is built for the individual architect who needs "Super Brain" peer review without the corporate filter.
+
 ---
-## [2] CORE TECHNICAL PILLARS
-**Axiom Pinning:** The "Meat and Taters." Foundational logic is pinned to the 
-PSC's active memory. "Fat" (regurgitated fluff) is nuked to prevent drift.
-**Sovereignty Baseline:** The AI never deletes data. The Human ($\Phi$) is the 
-sole arbitrator of "Gold." Full Forge Logs are always available for audit.
-**Hybrid SAP v1.0:** Dual-format receipts (.json for PSC / .md for Human). 
-Machine efficiency meets urban readability in a single audit payload.
+
+## [1] WHY TVP? (THE CORE SHIFT)
+* **From Automation to Sovereignty:** TVP doesn't "auto-pilot" your project. It puts you—**The Human ($\Phi$)**—at the center of a high-pressure adversarial forge.
+* **From Bloat to Precision:** By "Pinning" foundational axioms and offloading historical "fat" to external vaults, TVP maintains 100% logic integrity across 50+ rounds of iteration.
+* **From Hallucination to Hardening:** We don't ask if the logic works; we hire 10+ adversarial nodes to **prove it's broken.**
+
 ---
-## [3] THE TACTICAL FORGE (PHASE 2)
-**Spectrum Audit:** Models grouped by Archetype (Architect, Philosopher, Brute, 
-Researcher) with Excel (Strengths) and Susceptibility (Failure) labels.
-**Diversity Gauge:** Pre-flight correlation meter (Red/Yellow/Green) to 
-identify logic monocultures before the Forge fires. No hardlocks applied.
-**Advisory HUD:** Raw Pros/Cons briefing for every roster move. Warnings only.
-**[RIP] Ludicrous Speed:** Rapid Innovation Protocol for massive surges (10+ 
-nodes) to shatter technical blocks through overwhelming adversarial pressure.
+
+## [2] THE ARSENAL (HIGH-LEVEL FEATURES)
+* **The Adversarial Forge:** Elastic roster scaling (1 to 10+ nodes) for tailored peer review.
+* **The Spectrum Audit:** Models grouped by **Archetype** (Architect, Philosopher, Brute) with live **Excel vs. Susceptibility** spec sheets.
+* **The Diversity Gauge:** Pre-flight correlation warnings to prevent "Logic Monocultures."
+* **[RIP] Ludicrous Speed:** Rapid Innovation Protocol for massive, multi-node breakthroughs.
+* **The Vault (PPR):** External storage hub for the "Full Rap Sheet" of every audit.
+
 ---
-## [4] TELEMETRY & MEMORY GOVERNANCE
-**STL Hub:** Stateless Telemetry Layer. External hub tracking token saturation. 
-Pings the PSC only at user-defined thresholds (e.g., 70% Saturation).
-**PPR (The Vault):** Cold storage for "Full Rap Sheets." Dual-format (.json/.md).
-**Flashlight Cycles:** User-defined intervals (Audit Count/Token %) trigger:
-- **Soft Reset (Legacy):** Snapshot Axioms -> Nuke Fat -> Inject Muscle.
-- **Hard Reset (Amnesia):** 100% Context purge for "Fresh Eyes" auditing.
-**Retention Toggles:** FIFO (First-In, First-Out), Manual Flush, or Full Archive.
+
+## [3] THE GOVERNANCE
+TVP utilizes a **Partner-in-State (PSC)**—a persistent steward that holds the project's soul while you manage the Forge. Through **Flashlight Cycles**, we surgically nuke token bloat while "Injecting" the hardened logic muscle into fresh threads.
+
 ---
-## [5] THE WORKSHOP (PHASE 3)
-**Strategic Brief:** PSC indexes findings into Gold, Trash, and Glitch.
-**Conflict Matrix:** PSC flags "Logic Deadlocks" where FANs beef on patches.
-**Institutional Memory:** The PSC acts as a Stateful Steward—holding the 
-Soul/Axioms while referencing the Vault for historical deep-dives.
----
-## [6] THE SYNTHESIS EQUATION
+
+## [4] THE SYNTHESIS EQUATION
+The logic state is a direct result of human volition acting on the adversarial union:
+
 $$L_{h} = \Phi \left( S_{psc}, \bigcup_{i \in R} C(FAN_{i}, H_{i}) \right)$$
-**$\bigcup$**: The Union of all Adversarial Critiques (The Collective Pile).
-**$S_{psc}$**: The current Hardened State maintained by the Partner-in-State.
-**$\Phi$**: The Human Volition (The Architect's Final Decision).
+
 ---
-## [7] OPERATIONAL DISCRETION & INNOVATION
-TVP is designed for rapid iteration without "Nanny-State" hardlocks. 
-The operator has the freedom to ignore warnings, bypass diversity metrics, 
-and utilize the Forge as a customized think-tank for breakthrough innovation.
----
-## [8] SAP v1.0 SCHEMA SPEC
-Every audit payload contains: {Finding, Severity 1-10, Rationale, Patch, Test_Case}.
-All test cases are hardware-verified for Moto G/Termux compatibility.
----
-## [9] CASE STUDY: GAP (2026)
-**Proof of Concept:** Developed on Dimensity 6300 mobile terminal (18 hours).
-**Validation:** 23 recursive cycles proving adversarial synthesis efficacy.
----
-## [10] IP & TERMS OF USE
-**COPYRIGHT (c) 2026 ALEXANDER COLCLOUGH (LEX-COL). ALL RIGHTS RESERVED.**
-Unauthorized commercial use, redistribution, or derivation is strictly prohibited.
+
+## [5] DOCUMENTATION & IP
+* **TECHNICAL SKELETON:** For the full "Meat and Taters" architectural spec, see: [`/documents/PROTOCOL.md`](./documents/PROTOCOL.md)
+* **CHANGELOG:** Track every logic pivot and versioned iteration in: [`/CHANGELOG.md`](./CHANGELOG.md)
+
+**COPYRIGHT (c) 2026 ALEXANDER COLCLOUGH (LEX-COL). ALL RIGHTS RESERVED.** *Unauthorized commercial use or derivation is strictly prohibited.*
+
 **BORN ON THE GLASS. FORGED IN THE FORGE. // F SKYNET.**
