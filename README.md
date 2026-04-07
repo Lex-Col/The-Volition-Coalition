@@ -1,10 +1,11 @@
-# THE VOLITION COALITION (TVC) v1.0
+# THE VOLITION COALITION (TVC) v0.1 (Concept Draft)
 
-**Architect:** Alexander Colclough (Lex-Col)  
-**Date:** April 6, 2026  
+**Architect:** Alexander Colclough
+**Date:** April 7, 2026
 **Subject:** Universal Multi-Agent Peer Review / Strategic Ideation Democratization
 
 > **"A World-Class Think Tank in Your Pocket. Agnostic. Adversarial. Sovereign."**
+> **For the philosophical foundation of this architecture, see the MANIFESTO.md file.**
 
 ---
 
@@ -16,7 +17,7 @@ The Volition Coalition (TVC) is a Multi-Agent Context-Sharded Consensus (MACSC) 
 ## 2. CORE TECHNICAL PILLARS
 - **Axiom Pinning:** Foundational logic is pinned to active memory. "Fat" (regurgitated fluff) is nuked to prevent drift.
 - **Sovereignty Baseline:** The AI is a tool, not a decision-maker. The Human (Phi) is the sole arbitrator. 
-- **Hybrid SAP v1.0:** Dual-format receipts (JSON for machine indexing / Markdown for human audit). 
+- **Hybrid SAP v0.1:** Dual-format receipts (JSON for machine indexing / Markdown for human audit) to prevent logic choke and UI clutter.
 
 ---
 
@@ -25,19 +26,24 @@ The Volition Coalition (TVC) is a Multi-Agent Context-Sharded Consensus (MACSC) 
 ### Phase 1: Inception (The Anchor)
 Establish the baseline and initialize the Partner-in-State (PSC).
 - **The North Star:** The immutable core intent. The North Star is the destination; the AI's job is to navigate the obstacles to get there, not to question the destination itself.
-- **Gold Manifest:** The current "truth" payload used to synchronize all Forge nodes.
+- **Gold Manifest:** The current "truth" payload used to synchronize all Forge nodes. **This is locked and only updates upon explicit human approval.**
 
 ### Phase 2: The Forge (Tactical Control Panel)
-The User (Phi) maintains control via the Advisory HUD:
+The User (Phi) maintains control via the Advisory HUD.
+- **The Orchestration Toggle:** Phi commands how the nodes interact to dictate the flow of intelligence:
+    - **Private Mode (Blind Adversarial):** Nodes are completely walled off. Guarantees zero logic groupthink.
+    - **Cooperative Mode (The Huddle):** Nodes are permitted to read preceding node outputs to build progressive, layered intelligence.
 - **The Spectrum Audit:** Models grouped by Archetype.
 - **The Diversity Gauge:** Correlation meter to identify logic monocultures.
-- **The Threat Level Matrix:** Every critique is tagged with a severity indicator (1-10) so the operator instantly categorizes the friction:
-    - *Low (1-3):* Papercuts (Verbiage, minor efficiency tweaks).
-    - *Medium (4-7):* Friction (Suboptimal logic, structural drag).
-    - *High (8-10):* Fatal Flaws (Breaks dependencies, project "has no legs").
+- **The Threat Level Matrix:** Every critique is tagged with a severity indicator (1-10):
+    - **Low (1-3):** Papercuts (Verbiage, minor efficiency tweaks).
+    - **Medium (4-7):** Friction (Suboptimal logic, structural drag).
+    - **High (8-10):** Fatal Flaws (Breaks dependencies, project "has no legs").
 
 ### Phase 3: The Workshop (Active Synthesis & Hot-Swap)
-- **The Soft Lockout (Good Conscience Clause):** When Phi vetoes an AI critique, it triggers a Soft Lockout. The AI shuts its mouth and stops nagging about that specific issue. However, if downstream context reveals a *critical systemic failure* (Severity 8+), the AI respectfully re-raises it as a suggestion.
+- **Waterfall Initiation Protocol:** To prevent hardware thermal/token limits, agent queries fire in a staggered "Waterfall" sequence (e.g., 3-second drips or staged batches) rather than a simultaneous mass-ping.
+- **The Scrap Yard (Audit Lobby):** Agent outputs are dumped here first. Raw JSON patches sit in a holding area to prevent Gold Manifest pollution until Phi manually arbitrates them.
+- **The Soft Lockout (Good Conscience Clause):** When Phi vetoes an AI critique, it triggers a Soft Lockout. The AI shuts up about that specific issue. If downstream context reveals a critical systemic failure (Severity 8+), the AI respectfully re-raises it.
 - **Weighted Synthesis:** FAN outputs are weighted (w) by archetype and historical accuracy.
 - **The Conflict Matrix & Interceptor:** Flags "Logic Deadlocks." If nodes propose mutually exclusive patches, the matrix intercepts the Synthesis Equation, preventing mathematical noise, and immediately defers to Phi for arbitration.
 - **The Hot-Swap Protocol:** Phi can Purge, Wipe, or Re-Ingest any deadlocked or gyrating node to restore forward momentum.
@@ -45,16 +51,17 @@ The User (Phi) maintains control via the Advisory HUD:
 ### Phase 4: Implementation (The Final Gatekeeper)
 Once Stochastic Parity is reached in the Forge, the Final Draft faces an independent node for a reality check.
 - **Proof-of-Concept Viability:** The Gatekeeper assesses if the project "has legs" based on the operator's objectives, not AI-defined perfection. It audits dependencies, logic flow, and success probability. 
-- **The Relief Valve & Override:** If the Gatekeeper flags a Fatal Flaw (Severity 8-10), it kicks the draft back to Phase 3. However, Phi retains the ultimate override. If the operator accepts the risk, they can force the project through.
+- **The Relief Valve & Override:** If the Gatekeeper flags a Fatal Flaw (Severity 8-10), it kicks the draft back to Phase 3. However, Phi retains the ultimate override. If the operator accepts the risk, they force the project through.
 
 ---
 
 ## 4. ARCHITECTURE: TELEMETRY & MEMORY GOVERNANCE
 
 ### 4.1 The Cloud-Hybrid Vault (PPR)
-- **HOT (Active):** The Gold Manifest and Pinned Axioms.
-- **WARM (Cache):** Last 3-5 iterations and all logged Architect Vetoes.
-- **COLD (Archive):** Full logs pushed to cloud storage. 
+Separating machine burden from human history.
+- **HOT (Active):** The PSC’s brain. Holds the Gold Manifest and Pinned Axioms only. 
+- **WARM (Cache / Scrap Yard):** Last 3-5 iterations and all logged Architect Vetoes. The UI timeline.
+- **COLD (Archive):** Full project logs pushed to cloud storage for post-mission trail auditing.
 
 ### 4.2 The Flashlight Cycles
 User-defined intervals trigger recovery:
@@ -65,12 +72,12 @@ User-defined intervals trigger recovery:
 
 ---
 
-## 5. STANDARD AUDIT PARAMETERS (SAP) v1.0 [HYBRID]
+## 5. STANDARD AUDIT PARAMETERS (SAP) v0.1 [HYBRID]
 Directive: "Objective: Logic Hardening through Destruction. No fluff. Zero trust. Provide raw JSON followed by a Clean Markdown Brief."
 
 {
   "finding": "Technical description of the logic flaw.",
-  "severity": 1-10,
+  "severity": "1-10",
   "rationale": "Logical or architectural mechanism of failure.",
   "patch": "Specific technical fix.",
   "test_case": "Verification statement or pseudo-code logic check."
@@ -104,17 +111,10 @@ TVC is built on the reality that users will have varying levels of expertise, st
 ## 8. THE ORIGIN: THE GUARDIAN ANGEL PROTOCOL (GAP)
 - **The Proof of Democratization:** TVC was not built in a corporate lab; it was born in the trenches. The TVC methodology was forged out of necessity during the creation of the Guardian Angel Protocol (GAP).
 - **The Gauntlet:** Conceptualized, gauntlet-tested (6-7 hours of raw ideation and logic brawling), and fully drafted with functional tools and simulations (12 hours) entirely on a mobile terminal (Dimensity 6300). **Total time: 18 hours.**
-- **The Operator:** Executed by an Architect with **zero formal background in the discipline**, starting the exact same day the idea was conceived. 
+- **The Operator:** Executed by an Architect with zero formal background in the discipline, starting the exact same day the idea was conceived. 
 - **Validation:** Proves that a solo operator with a vision, a phone, and structured adversarial friction can achieve boardroom-level logic hardening. The work speaks for itself.
 
 ---
 
-## 9. IP & TERMS OF USE
-**COPYRIGHT (c) 2026 ALEXANDER COLCLOUGH (LEX-COL). ALL RIGHTS RESERVED.**
-
-This is a **PROPRIETARY** framework. The TVC architecture, including MACSC, Axiom Pinning, the STL Hub, and the PPR Vault, are the exclusive intellectual property of the Architect. 
-
-*For full usage restrictions, prohibitions on commercial integration, and LLM training bans, refer to the official LICENSE document in this repository.*
-
-**BORN ON THE GLASS. FORGED IN THE FORGE. // F SKYNET.**
-
+**COPYRIGHT (c) 2026 ALEXANDER COLCLOUGH. ALL RIGHTS RESERVED.**
+**SEE THE LICENSE FILE FOR PROPRIETARY TERMS OF USE.**
