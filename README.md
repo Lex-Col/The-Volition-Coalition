@@ -1,4 +1,4 @@
-# THE VOLITION COALITION (TVC) v0.1 (Concept Draft)
+# THE VOLITION COALITION (TVC) v0.1 
 
 **Architect:** Alexander Colclough
 **Date:** April 7, 2026
@@ -93,7 +93,7 @@ Directive: "Objective: Logic Hardening through Destruction. No fluff. Zero trust
 ## 6. THE SYNTHESIS EQUATION
 The logic state is a direct result of human volition acting on the weighted adversarial union:
 
-L_h = \Phi ( S_{psc}, CR ( \sum [ FAN_i * w_i * d ] ) )
+Lh = Phi ( Spsc, CR ( SUM [ FANi * wi * d ] ) )
 
 Legend:
 - Phi: Human Volition (The Architect's Final Decision).
