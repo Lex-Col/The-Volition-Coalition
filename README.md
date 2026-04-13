@@ -13,20 +13,25 @@
 
 ---
 
-## 🌌 The Abstract
-**The Volition Coalition (TVC)** is a Multi-Agent Context-Sharded Consensus (MACSC) framework designed for total operator sovereignty (Phi). Born on a mobile terminal, TVC democratizes elite-level strategic ideation, replacing automated AI bias with an Architect-Governed Forge.
+## 🌌 THE ABSTRACT
+**The Volition Coalition (TVC)** is a Multi-Agent Context-Sharded Consensus (MACSC) framework designed for total operator sovereignty (**Phi**). Built for high-efficiency mobile environments, TVC replaces automated bias with an Architect-Governed Forge—ensuring that strategic ideation remains under human command.
 
-## 🛠️ Core Technical Pillars
-* **Axiom Pinning:** Foundational logic is pinned to active memory to prevent "fat" (drift).
-* **PSC (Partner-in-State) Protocol:** A dedicated contextual historian that maintains a lossless connection to the Sovereign IP Vault.
-* **Hybrid SAP:** A proprietary dual-parsing mechanism that ensures zero-loss telemetry across all system manifestations.
+## 🛠️ CORE TECHNICAL PILLARS
+* **Axiom Pinning:** Foundational logic is pinned to active state memory to prevent contextual drift and ensure long-term objective alignment.
+* **PSC (Partner-in-State) Protocol:** A dedicated contextual historian maintaining secure, high-integrity telemetry between system layers.
+* **Hybrid SAP:** A proprietary dual-parsing mechanism that ensures zero-loss data integrity across all system manifestations.
 
-## 🏗️ The Forge Workflow
+## 🏗️ THE FORGE WORKFLOW
 1. **Inception (The Anchor):** Initialization of the **North Star** (immutable intent) and the **Gold Manifest** (current truth payload).
-2. **The Forge (Tactical Control):** Human (Phi) arbitration through Private (Blind Adversarial) or Cooperative (Huddle) modes.
-3. **The Workshop (Synthesis):** Adaptive "Waterfall" initiation and the **Conflict Matrix Interceptor** to identify structural deadlocks.
+2. **The Forge (Tactical Control):** Human (Phi) arbitration through Blind Adversarial or Cooperative "Huddle" modes.
+3. **The Workshop (Synthesis):** Adaptive synthesis and the **Conflict Matrix Interceptor** used to identify and resolve structural deadlocks in agent logic.
 4. **Implementation:** A final audit node validates architectural integrity before the final gate.
 
-## 🧪 The Synthesis Equation
+## 🧪 THE SYNTHESIS LOGIC
+The TVC utilizes a proprietary weighted-consensus model to aggregate agent outputs. This logic ensures that the "loudest" agent is not the "winning" agent, prioritizing structural logic and objective truth over generative frequency.
+
+---
+**Copyright © 2026 Alexander Colclough (@Lex-Col). ALL RIGHTS RESERVED.**
+**"Sovereignty through architecture."**
 
 
